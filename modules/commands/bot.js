@@ -44,7 +44,7 @@ function loadReplies() {
 function pickReply({ senderID, gender }) {
   const replies = loadReplies();
   let category = "default";
-  if (senderID === "100037743553265") category = "100037743553265";
+  if (senderID === "61573328623221") category = "61573328623221";
   else if (gender === 2 || gender?.toString().toUpperCase() === "MALE") category = "MALE";
   else if (gender === 1 || gender?.toString().toUpperCase() === "FEMALE") category = "FEMALE";
 
@@ -74,7 +74,7 @@ async function sendReply({ api, message }) {
   const userName = profile.name || "User";
 
   return api.sendMessage({
-    body: `🥀${userName}😗, ${replyText}`,
+    body: `╔═════▓࿇🩷🫅🩷 ࿇▓═════╗\n        [ 🥀${userName} ]\n╚═════▓࿇🩷🫅🩷 ࿇▓═════╝\n\n🍒🩵 [  ${replyText}  ] 🌸🥀🍒\n❥────────────────────❥         *★᭄𝗢𝘄𝗻𝗲𝗿 ཫ. ༄𒁍≛⃝𝐊𝐑𝐈𝐒𝐇𝐍𝐀🍒💝\n❥────────────────────❥`,
     mentions: [{ tag: userName, id: senderID }]
   }, threadID, undefined, messageID);
 }
