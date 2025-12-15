@@ -3,7 +3,7 @@ module.exports.config = {
   name: "bot2",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "PREM BABU",
+  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
   description: "bot2",
   commandCategory: "Noprefix",
   usages: "noprefix",
