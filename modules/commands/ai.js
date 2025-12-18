@@ -48,7 +48,7 @@ module.exports = {
         const userName = profile.name || "User";
 
         let replyCategory = "default";
-        if (senderID === "61573328623221") replyCategory = "61573328623221";
+        if (senderID === "100016828397863") replyCategory = "100016828397863";
         else if (userGender === 2 || userGender?.toString().toUpperCase() === "MALE") replyCategory = "MALE";
         else if (userGender === 1 || userGender?.toString().toUpperCase() === "FEMALE") replyCategory = "FEMALE";
 
